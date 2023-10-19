@@ -1,0 +1,45 @@
+.body{
+    background-color: lightblue;
+}
+.atasnya{
+    background-color: blue;
+}
+.menu-tambah{
+    background-color: gold;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+.tulisan-utama{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tulisan-tambah{
+    background-color: aqua;
+}
+.tombol-tambah:hover{
+    background-color: black;
+}
+.tombol-tambah{
+    border-color: black;
+    background-color: aqua;
+    border: 20px;
+    border-radius: 20%;
+    border-width: 20px;
+    margin-right: 1%;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+.luaran{
+    background-color: lightblue;
+}
+.tabel-inti{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.dalam-tabel{
+    border-width: 5px;
+}
