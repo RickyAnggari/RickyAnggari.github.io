@@ -1,0 +1,76 @@
+#Judul_buku{
+    overflow-x: hidden;
+    white-space: nowrap;
+}
+body{
+    background-color: lightblue;
+}
+.atas1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.atas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 200%;
+}
+.carousel {
+    background-color: blue;
+width: 100vw;
+height: 100vh;
+    position: relative;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slide[data-active]{
+    opacity: 1;
+}
+.slide > img{
+    width: 20%;
+    height: 20%;
+    object-position: center;
+}
+.carousel>ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.carousel-button{
+    position: absolute;
+    background: none;
+    z-index: 2;
+    border: none;
+    font-size: 4rem;
+    top: 50%;
+    cursor: pointer;
+    border-radius: .25rem;
+}
+.carousel-button:hover,
+.carousel-button:focus{
+    color: white;
+    background-color: black;
+}
+.carousel-button:focus{
+    outline:1px solid black;
+}
+.slide{
+    position: absolute;
+   display: flex;
+   justify-content: center;
+    align-items: center;
+    inset: 0;
+    opacity: 0;
+    transition: 200ms opacity ease-in-out;
+}
+.carousel-button.next{
+    right: 1rem;
+
+}
+.carousel-button.prev{
+    left: 1rem;
+}
