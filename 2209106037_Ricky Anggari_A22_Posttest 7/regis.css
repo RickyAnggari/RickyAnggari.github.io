@@ -1,0 +1,12 @@
+body{
+    background-color: blue;
+}
+.pengisian-regis{
+    list-style-type: none;
+}
+.tabel-registrasi{
+    background-color: blue;
+}
+.regis-btn{
+    border-radius: 50%;
+}

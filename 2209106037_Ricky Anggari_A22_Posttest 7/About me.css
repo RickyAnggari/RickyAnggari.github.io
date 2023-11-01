@@ -1,0 +1,85 @@
+body{
+    background-color:lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+
+.profiletext{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+.profiletext .Gambar{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.profiletext h1{
+    color:whitesmoke;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 1.4em;
+}
+
+.profiletext .Gambar img{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.Kontak{
+    list-style-type: none;
+}
+
+.Email{
+    list-style-type: none;
+}
+
+.Container{
+   position: relative;
+   width: 100%;
+   max-width: 1000px;
+   min-height:1000px ;
+   background: white;
+   display: grid;
+   grid-template-columns: 1fr 2fr;
+   box-shadow: 0 35px 55px green;
+}
+
+.Container .kiri{
+    border-radius: 50%;
+    position: relative;
+    background:green;
+    padding: 40px;
+}
+.Container .kanan{
+    position: relative;
+    background:lightgray;
+    padding: 40px;
+}
+.Kontak{
+    list-style-type: none;
+}
+.Languages{
+    list-style-type: none;
+}
+
+.Pendidikan .ilmu{
+    list-style-type: none;
+}
+

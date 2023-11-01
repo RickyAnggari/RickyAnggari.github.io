@@ -1,0 +1,23 @@
+.tulisan-kolom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+background-color: lightblue;
+}
+.tabel-inti{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffff00;
+}
+.dalam-tabel{
+    background-color: gray ;
+}
+.diatas{
+background-color: red;
+display: flex;
+justify-content: center;
+align-items: center;
+}

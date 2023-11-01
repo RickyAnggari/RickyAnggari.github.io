@@ -1,0 +1,20 @@
+
+.formulir{
+ background-color: lightblue;   
+}
+.pengisian{
+    list-style-type: none;
+}
+.dalam-pengisian {
+    list-style-type: none;
+}
+.tede-regis{
+    background-color: black;
+    text-decoration: none;
+}
+.tombol-regis{
+    color:white;
+}
+.tede-regis:hover{
+    background-color: blue;
+}

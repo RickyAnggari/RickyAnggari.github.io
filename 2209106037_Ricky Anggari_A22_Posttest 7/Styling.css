@@ -1,0 +1,150 @@
+body{
+    background-color: lightblue;
+    scroll-behavior: smooth;
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+.ujung{
+    display: flex;
+    justify-content:right;
+    align-items: right;
+}
+.tombol-tambah{
+    border-color: black;
+    background-color: aqua;
+    border: 20px;
+    border-radius: 20%;
+    border-width: 20px;
+    margin-right: 1%;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+.tulisan-tambah{
+    background-color: aqua;
+}
+.Navbar{
+background-color: blue;
+width: 100%;
+height: 100px;
+position: fixed;
+top: 0;
+left: 0;
+}
+
+.container {
+    background-color:blue;
+    padding: 10px;
+    border: 1px solid;
+    margin: 10px;
+}
+.Tombol{
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.setting1{
+list-style-type: none;
+display: flex;
+justify-content: center;
+align-items: center;
+color:white;
+}
+.tulisan1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    background-color: yellow;
+}
+.diskon{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.diskon1{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.tengah{
+    /* background-image: url(Kimi\ no\ nawa.jpeg); */
+    background-size: cover;
+}
+.Isi{
+    list-style-type: none;
+    background-color:blue;
+    justify-content: left;
+    align-items: left;
+    margin: 5px;
+    padding: 20px;
+}
+.Isi:hover{
+    background-color:black;
+}
+.Medsos:hover{
+    background-color: yellowgreen;
+}
+.Info{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+.setting1{
+    color: blue;
+    text-decoration: none;
+}
+.setting{
+    color:black;
+    text-decoration: none;
+}
+.setting2{
+    color:blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.setting3{
+    color:black;
+    display:flex;
+}
+.bawah{
+    background-color:lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tr1{
+    width: 300px;
+}
+.tabel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.setting_tulisan{
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Medsos{
+    list-style-type: none;
+    background-color: black;
+    border-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+}
+.Tulisan_Medsos{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
